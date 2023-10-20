@@ -350,6 +350,8 @@
 
 .login .field + a {
   margin-top: 1rem;
+  color:red;
+  
 }
 
 .login p {

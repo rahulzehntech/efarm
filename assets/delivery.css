@@ -1,20 +1,41 @@
-  .delivery_footer {
-            display: flex;
-            justify-content: space-evenly;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
+/* Default styles for larger screens */
+.delivery_footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-        .delivery {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px; 
-        }
+.delivery {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
-        .delivery_img img {
-            margin-right: 20px;
-        }
+.delivery_img img {
+    margin-right: 20px;
+}
 
-        .delivery-text {
-            text-align: center;
-            line-height: 80%;
-        }
+.delivery-text {
+    text-align: center;
+    line-height: 80%;
+}
+
+/* Media query for screens with a maximum width of 600px (typical for mobile devices) */
+@media (max-width: 768px) {
+    .delivery_footer {
+        flex-direction: column; /* Change to a column layout for smaller screens */
+    }
+
+    .delivery {
+        margin-bottom: 20px; /* Add space between .delivery items */
+    }
+
+    .delivery_img img {
+        margin-right: 0; /* Remove the margin between icon and text for smaller screens */
+    }
+
+    .delivery-text {
+        text-align: center;
+        line-height: 100%; /* Adjust line height as needed for smaller screens */
+    }
+}

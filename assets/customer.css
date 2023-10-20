@@ -40,7 +40,9 @@
 
 .customer ul a {
   display: inline;
+  color:red;
 }
+
 
 .customer strong {
   font-weight: normal;

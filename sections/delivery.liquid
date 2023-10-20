@@ -50,7 +50,14 @@
 {% schema %}
   {
     "name": "Section_name",
-    "settings": [],
+    "settings": [
+      {
+      "type": "checkbox",
+      "id": "auto_rotate",
+      "label": "t:sections.slideshow.settings.auto_rotate.label",
+      "default": false
+      }
+    ],
      "presets": [
     {
       "name": "Section_name"

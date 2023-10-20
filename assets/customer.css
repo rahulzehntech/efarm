@@ -496,6 +496,7 @@
 
 .account table td:first-of-type a:hover {
   box-shadow: 0 0 0 0.1rem pink;
+  border-radius: 1.5rem;
 
 }
 

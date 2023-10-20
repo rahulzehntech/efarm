@@ -23,6 +23,7 @@
 
 .customer button {
   margin: 4rem 0 1.5rem;
+  border-radius: 1rem;
 }
 
 .customer ul {

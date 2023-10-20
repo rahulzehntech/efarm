@@ -24,6 +24,7 @@
 .customer button {
   border-radius: 1rem;
   background-color:pink;
+  font-weight:bold;
 }
 
 .customer ul {

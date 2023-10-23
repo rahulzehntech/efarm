@@ -1,4 +1,6 @@
-
+.dt-sc-flex-space-between{
+  display:flex;
+}
 
 
 .footer__item {

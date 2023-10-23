@@ -1,18 +1,5 @@
 {
   "sections": {
-    "95b209b5-19fb-4c06-9517-78c4854ecc0d": {
-      "type": "slideshow",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "dadce549-68c2-4e8d-8120-d6a936ce48f0": {
       "type": "slideshow",
       "blocks": {
@@ -65,10 +52,15 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "99391d60-7a5b-4ae6-8f12-23eb1c57d199": {
+      "type": "new_slider",
+      "settings": {
+      }
     }
   },
   "order": [
-    "95b209b5-19fb-4c06-9517-78c4854ecc0d",
-    "dadce549-68c2-4e8d-8120-d6a936ce48f0"
+    "dadce549-68c2-4e8d-8120-d6a936ce48f0",
+    "99391d60-7a5b-4ae6-8f12-23eb1c57d199"
   ]
 }

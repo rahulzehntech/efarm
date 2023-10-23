@@ -2,13 +2,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "bc943da4-7eed-4a7a-867f-6ae6e217d68a": {
-      "type": "delivery",
-      "settings": {
-        "auto_rotate": false,
-        "change_slides_speed": 5
-      }
-    },
     "footer": {
       "type": "footer",
       "settings": {
@@ -28,7 +21,6 @@
     }
   },
   "order": [
-    "bc943da4-7eed-4a7a-867f-6ae6e217d68a",
     "footer"
   ]
 }

@@ -1,0 +1,19 @@
+
+.footer__item {
+    padding: 20px;
+}
+
+.text-start {
+    text-align: left;
+}
+
+
+@media (max-width: 768px) {
+    .dt-sc-flex-space-between {
+        flex-direction: column;
+    }
+
+    .footer__item {
+        padding: 10px;
+    }
+}
